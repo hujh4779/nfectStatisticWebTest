@@ -1,0 +1,4 @@
+javac -encoding utf-8 InfectStatistic.java
+java InfectStatistic list -log D:\log\ -out D:\ListOut1.txt -date 2020-01-22
+java InfectStatistic list -log D:\log\ -out D:\ListOut2.txt -date 2020-01-22 -province 福建 河北
+java InfectStatistic list -log D:\log\ -out D:\ListOut3.txt -date 2020-01-23 -type cure dead ip -province 全国 浙江 福建
